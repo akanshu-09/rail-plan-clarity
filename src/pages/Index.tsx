@@ -119,6 +119,177 @@ const Index = () => {
         JobCardStatus: "Closed", 
         BrandValue: 2100000,
         AdContract: "Inactive"
+      },
+      {
+        TrainID: "TRN-007",
+        KilometerRun: 320000,
+        HVAC: "Working",
+        MaintenanceStatus: "Fair",
+        JobCardStatus: "Closed",
+        BrandValue: 2300000,
+        AdContract: "Active"
+      },
+      {
+        TrainID: "TRN-008",
+        KilometerRun: 750000,
+        HVAC: "Faulty",
+        MaintenanceStatus: "Poor",
+        JobCardStatus: "Open",
+        BrandValue: 1500000,
+        AdContract: "Inactive"
+      },
+      {
+        TrainID: "TRN-009",
+        KilometerRun: 180000,
+        HVAC: "Working",
+        MaintenanceStatus: "Good",
+        JobCardStatus: "Closed",
+        BrandValue: 2900000,
+        AdContract: "Active"
+      },
+      {
+        TrainID: "TRN-010",
+        KilometerRun: 680000,
+        HVAC: "Working",
+        MaintenanceStatus: "Fair",
+        JobCardStatus: "Open",
+        BrandValue: 1700000,
+        AdContract: "Inactive"
+      },
+      {
+        TrainID: "TRN-011",
+        KilometerRun: 95000,
+        HVAC: "Working",
+        MaintenanceStatus: "Good",
+        JobCardStatus: "Closed",
+        BrandValue: 3100000,
+        AdContract: "Active"
+      },
+      {
+        TrainID: "TRN-012",
+        KilometerRun: 520000,
+        HVAC: "Working",
+        MaintenanceStatus: "Good",
+        JobCardStatus: "Closed",
+        BrandValue: 2200000,
+        AdContract: "Active"
+      },
+      {
+        TrainID: "TRN-013",
+        KilometerRun: 840000,
+        HVAC: "Faulty",
+        MaintenanceStatus: "Poor",
+        JobCardStatus: "Open",
+        BrandValue: 1300000,
+        AdContract: "Inactive"
+      },
+      {
+        TrainID: "TRN-014",
+        KilometerRun: 210000,
+        HVAC: "Working",
+        MaintenanceStatus: "Good",
+        JobCardStatus: "Closed",
+        BrandValue: 2700000,
+        AdContract: "Active"
+      },
+      {
+        TrainID: "TRN-015",
+        KilometerRun: 390000,
+        HVAC: "Working",
+        MaintenanceStatus: "Fair",
+        JobCardStatus: "Closed",
+        BrandValue: 2000000,
+        AdContract: "Inactive"
+      },
+      {
+        TrainID: "TRN-016",
+        KilometerRun: 150000,
+        HVAC: "Working",
+        MaintenanceStatus: "Good",
+        JobCardStatus: "Closed",
+        BrandValue: 3000000,
+        AdContract: "Active"
+      },
+      {
+        TrainID: "TRN-017",
+        KilometerRun: 620000,
+        HVAC: "Working",
+        MaintenanceStatus: "Fair",
+        JobCardStatus: "Open",
+        BrandValue: 1900000,
+        AdContract: "Inactive"
+      },
+      {
+        TrainID: "TRN-018",
+        KilometerRun: 280000,
+        HVAC: "Working",
+        MaintenanceStatus: "Good",
+        JobCardStatus: "Closed",
+        BrandValue: 2400000,
+        AdContract: "Active"
+      },
+      {
+        TrainID: "TRN-019",
+        KilometerRun: 790000,
+        HVAC: "Faulty",
+        MaintenanceStatus: "Poor",
+        JobCardStatus: "Open",
+        BrandValue: 1400000,
+        AdContract: "Inactive"
+      },
+      {
+        TrainID: "TRN-020",
+        KilometerRun: 110000,
+        HVAC: "Working",
+        MaintenanceStatus: "Good",
+        JobCardStatus: "Closed",
+        BrandValue: 2800000,
+        AdContract: "Active"
+      },
+      {
+        TrainID: "TRN-021",
+        KilometerRun: 470000,
+        HVAC: "Working",
+        MaintenanceStatus: "Good",
+        JobCardStatus: "Closed",
+        BrandValue: 2100000,
+        AdContract: "Active"
+      },
+      {
+        TrainID: "TRN-022",
+        KilometerRun: 350000,
+        HVAC: "Working",
+        MaintenanceStatus: "Fair",
+        JobCardStatus: "Closed",
+        BrandValue: 2200000,
+        AdContract: "Inactive"
+      },
+      {
+        TrainID: "TRN-023",
+        KilometerRun: 920000,
+        HVAC: "Faulty",
+        MaintenanceStatus: "Poor",
+        JobCardStatus: "Open",
+        BrandValue: 1100000,
+        AdContract: "Inactive"
+      },
+      {
+        TrainID: "TRN-024",
+        KilometerRun: 190000,
+        HVAC: "Working",
+        MaintenanceStatus: "Good",
+        JobCardStatus: "Closed",
+        BrandValue: 2600000,
+        AdContract: "Active"
+      },
+      {
+        TrainID: "TRN-025",
+        KilometerRun: 430000,
+        HVAC: "Working",
+        MaintenanceStatus: "Fair",
+        JobCardStatus: "Closed",
+        BrandValue: 2000000,
+        AdContract: "Active"
       }
     ];
     
