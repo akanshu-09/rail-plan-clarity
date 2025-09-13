@@ -5,10 +5,21 @@ import { OptimizedTrain, OptimizationResult } from "./OptimizationEngine";
 import { Train, Wrench, Zap, BarChart3, Target, Clock, TrendingUp } from "lucide-react";
 
 interface DashboardProps {
-  optimizationResult: OptimizationResult;
+  optimizationResult: OptimizationResult | null;
 }
 
 export const Dashboard = ({ optimizationResult }: DashboardProps) => {
+  if (!optimizationResult) {
+    return (
+      <div className="flex items-center justify-center py-16">
+        <div className="text-center">
+          <Train className="h-16 w-16 mx-auto mb-4 text-muted-foreground opacity-50" />
+          <p className="text-lg text-muted-foreground">Loading optimization results...</p>
+        </div>
+      </div>
+    );
+  }
+
   const { trains, summary } = optimizationResult;
   
   const inServiceTrains = trains.filter(t => t.status === "in-service");
